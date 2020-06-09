@@ -1,6 +1,6 @@
 /**
  * Defines all possible operator for filtering by query
- * @see https://docs.directus.io/api/reference.html#filtering
+ * @see https://docs.directus.io/api/query/filter.html
  */
 export type FilterOperator =
   | "="
@@ -31,4 +31,5 @@ export type FilterOperator =
   | "empty"
   | "nempty"
   | "all"
-  | "has";
+  | "has"
+  | "logical";
